@@ -4,19 +4,20 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="@color/background_1">
+    android:background="@color/dark">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#E73218">
+        android:background="@color/dark">
         <TextView
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Chỉ Số BMI"
-            android:textSize="18sp"
-            android:textColor="#ffffffff"
+            android:textSize="25sp"
+            android:textColor="@color/text"
+            android:textStyle="bold"
             android:gravity="center"
             />
     </LinearLayout>
@@ -34,7 +35,8 @@
             android:layout_height="wrap_content"
             android:text="Chiều Cao (m):"
             android:textSize="18sp"
-            android:textColor="#E73218"
+            android:textStyle="bold"
+            android:textColor="@color/text"
             android:id="@+id/tvChieuCao1" />
         <EditText
             android:layout_marginLeft="20dp"
@@ -61,7 +63,8 @@
             android:text="Cân Nặng (kg):"
             android:id="@+id/tvCanNang1"
             android:textSize="18sp"
-            android:textColor="#E73218"/>
+            android:textStyle="bold"
+            android:textColor="@color/text"/>
         <EditText
             android:paddingTop="20dp"
             android:layout_marginLeft="10dp"
@@ -79,7 +82,7 @@
         android:id="@+id/btnBMI"
         android:gravity="center"
         android:textSize="18sp"
-        android:textColor="#ffffff"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:text="Tính BMI"/>
@@ -89,8 +92,8 @@
         android:id="@+id/textViewBMI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#E73218"
-        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         />
     <TextView
         android:layout_marginTop="15dp"
@@ -108,7 +111,8 @@
         android:text="Lời khuyên:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#E73218"
+        android:textColor="@color/text"
+        android:textStyle="bold"
         android:textSize="16sp"
         />
     <TextView

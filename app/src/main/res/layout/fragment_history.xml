@@ -4,20 +4,22 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="@color/background_1">
+    android:background="@color/dark">
 
     <LinearLayout
-        android:background="#E73218"
+        android:background="@color/dark"
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:textAlignment="center"
+        android:layout_height="wrap_content">
         <TextView
-            android:layout_marginTop="20dp"
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="Tính TDEE - Lượng Calor Tối Thiểu Trong 1 Ngày"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:layout_marginBottom="5dp"
-            android:textColor="#ffffff"
+            android:textColor="@color/white"
             android:gravity="center"
             />
     </LinearLayout>
@@ -25,7 +27,7 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
+        android:textColor="@color/text"
         android:textSize="16sp"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
@@ -43,7 +45,8 @@
             android:layout_marginLeft="10dp"
             android:text="Giới Tính:"
             android:textSize="14sp"
-            android:textColor="#E73218"
+            android:textStyle="bold"
+            android:textColor="@color/text"
             />
         <Spinner
             android:id="@+id/spinner1"
@@ -62,11 +65,12 @@
         <TextView
             android:layout_marginLeft="5dp"
             android:paddingTop="15dp"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Chiều Cao (cm):"
             android:textSize="14sp"
-            android:textColor="#E73218"
+            android:textColor="@color/text"
             android:id="@+id/tvChieuCao" />
         <EditText
             android:layout_marginLeft="4dp"
@@ -89,12 +93,13 @@
         <TextView
             android:layout_marginLeft="10dp"
             android:paddingTop="10dp"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cân Nặng (kg):"
             android:id="@+id/tvCanNang"
             android:textSize="14sp"
-            android:textColor="#E73218"/>
+            android:textColor="@color/text"/>
         <EditText
             android:layout_marginLeft="12dp"
             android:layout_marginRight="3dp"
@@ -116,10 +121,11 @@
             android:paddingTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:text="Tuổi của bạn:"
             android:id="@+id/tvTuoi"
             android:textSize="14sp"
-            android:textColor="#E73218"/>
+            android:textColor="@color/text"/>
         <EditText
             android:layout_marginLeft="20dp"
             android:layout_marginRight="8dp"
@@ -135,15 +141,19 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/tvGroupPerson"
             android:layout_width="wrap_content"
+            android:textStyle="bold"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:text="Nhóm Người:"
-            android:textColor="#E73218"
-            android:textSize="14sp"
-            android:layout_margin="10dp"
-            />
+            android:textColor="@color/text"
+            android:textSize="14sp" />
         <Spinner
             android:paddingTop="10dp"
             android:id="@+id/spinner"
@@ -163,22 +173,23 @@
         >
         <Button
             android:background="@color/teal_700"
-            android:textColor="#ffffffff"
+            android:textColor="@color/white"
             android:text="Kết quả TDEE"
             android:id="@+id/btnTDEE"
-
+            android:layout_weight="0.2"
             android:layout_marginLeft="10dp"
             android:layout_gravity="left"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
-            android:layout_marginTop="20dp"
             android:id="@+id/tvTDEE"
-            android:textSize="25sp"
-            android:textColor="#E73218"
+            android:textSize="30sp"
+            android:layout_weight="2"
+            android:textColor="@color/white"
             android:layout_marginLeft="35dp"
+            android:textStyle="bold"
             android:layout_marginRight="14dp"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </LinearLayout>
