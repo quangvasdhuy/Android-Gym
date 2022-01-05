@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CustomNavigation" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Image_butoon_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Button_view">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#E73218</item>
+    </style>
+    <style name="Select_Person">Nhóm Người Vận Động</style>
+    <string-array name="Group_Name">
+        <item>Ít hoặc không vận động</item>
+        <item>Vận động nhẹ: 1-3 lần/1 tuần</item>
+        <item>Vận động vừa phải: 3-5 lần / 1 tuần</item>
+        <item>Vận động nhiều: 6-7 lần/ 1 tuần</item>
+        <item>Vận động nặng: 7 lần/ 1 tuần</item>
+    </string-array>
+    <string-array name="Gioi_Tinh">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GYM WORKOUT</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_favorite">Tính BMI</string>
+    <string name="nav_history">Tính Calories</string>
+    <string name="nav_account">Tài khoản</string>
+    <string name="nav_my_profile">Thông tin tài khoản</string>
+    <string name="nav_change_password">Thay đổi mật khẩu</string>
+    <string name="nav_sign_out">Đăng xuất</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_IBM">Chỉ số IBM</string>
+    <string name="navigation_Calories">Tính calories</string>
+    <string name="navigation_setTimeEx">Hẹn giờ tập</string>
+
+
+</resources>
